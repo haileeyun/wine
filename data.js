@@ -4,41 +4,34 @@ window.LECTURES = [
     id: 1,
     title: "Intro to Wine",
     subtitle: "Weather, process, etc.",
-    notes: `
-      <ul>
-        <li>Key idea: acidity + food pairing</li>
-        <li>Chianti Classico vs Chianti</li>
-      </ul>
-    `,
+    notesPath: "notes/lecture1.html",
     wines: [
-      { name: "Wine 1", image: "images/lecture1/wine1.png", rating: "4.2/5" },
-      { name: "Wine 2", image: "images/lecture1/wine2.png", rating: "3.8/5" },
-      { name: "Wine 3", image: "images/lecture1/wine3.png", rating: "4.6/5" },
+      { name: "Chablis \"Terroir de Chichée\", Piuze", image: "images/lecture1/wine1.png", rating: "4.0/10" },
+      { name: "Rombauer Chardonnay", image: "images/lecture1/wine2.png", rating: "5.0/10" },
+      { name: "Schieferkristall Riesling Trocken, Karthäuserhof - 2021", image: "images/lecture1/wine3.png", rating: "3.5/10" },
+      { name: "Harmand Geoffroy \"La Nouroy\"", image: "images/lecture1/wine4.png", rating: "5.0/10" },
+      { name: "Bench Pinot Noir, Sonoma Coast - 2023", image: "images/lecture1/wine5.png", rating: "5.0/10" },
     ],
   },
   {
     id: 2,
     title: "Sparkling Wine",
     subtitle: "Loire / Burgundy styles",
-    notes: `
-      <p>Put your lecture notes here. You can use HTML tags.</p>
-    `,
+    notesPath: "notes/lecture2.html",
     wines: [
-      { name: "Wine 1", image: "images/lecture2/wine1.png", rating: "4.0/5" },
-      { name: "Wine 2", image: "images/lecture2/wine2.png", rating: "3.5/5" },
-      { name: "Wine 3", image: "images/lecture2/wine3.png", rating: "4.7/5" },
-      { name: "Wine 4", image: "images/lecture2/wine4.png", rating: "4.1/5" },
-      { name: "Wine 5", image: "images/lecture2/wine5.png", rating: "3.9/5" },
-      { name: "Wine 6", image: "images/lecture2/wine6.png", rating: "4.3/5" },
+      { name: "Mouzon-Leroux \"L'atavique Tradition\"", image: "images/lecture2/wine1.png", rating: "4.0/10" },
+      { name: "Lahèrte Frères, \"Rosé de Meunier\", Extra Brut - NV", image: "images/lecture2/wine2.png", rating: "5.0/10" },
+      { name: "Prosecco Superiore \"Primario\" Extra Dry, Ruge - NV", image: "images/lecture2/wine3.png", rating: "5.0/10" },
+      { name: "Franciacorta Brut \"Cuvée Prestige\", Ca' del Bosco - NV", image: "images/lecture2/wine4.png", rating: "5.0/10" },
+      { name: "Juve y Camps Brut Nature, Reserva de la Familia - 2021", image: "images/lecture2/wine5.png", rating: "4.0/10" },
+      { name: "Moscato d'asti \"La Rosa Selvatica\", Icardi - 2024", image: "images/lecture2/wine6.png", rating: "7.0/10" },
     ],
   },
   {
     id: 3,
     title: "Northern France",
     subtitle: "Cabernet Sauvignon, Pinot Noir",
-    notes: `
-      <p>Put your lecture notes here. You can use HTML tags.</p>
-    `,
+    notesPath: "notes/lecture3.html",
     wines: [
       { name: "Riesling Grand Cru \"Frankstein\", Manbach - 2022", image: "images/lecture3/wine1.png", rating: "3.0/10" },
       { name: "Touraine Sauvignon Blanc \"Clos de la Grange,\" - 2024", image: "images/lecture3/wine2.png", rating: "3.5/10" },
