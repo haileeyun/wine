@@ -40,21 +40,19 @@ window.LECTURES = [
       <p>Put your lecture notes here. You can use HTML tags.</p>
     `,
     wines: [
-      { name: "Wine 1", image: "images/lecture3/wine1.png", rating: "4.0/5" },
-      { name: "Wine 2", image: "images/lecture3/wine2.png", rating: "3.5/5" },
-      { name: "Wine 3", image: "images/lecture3/wine3.png", rating: "4.7/5" },
-      { name: "Wine 4", image: "images/lecture3/wine4.png", rating: "4.1/5" },
-      { name: "Wine 5", image: "images/lecture3/wine5.png", rating: "3.9/5" },
-      { name: "Wine 6", image: "images/lecture3/wine6.png", rating: "4.3/5" },
+      { name: "Riesling Grand Cru \"Frankstein\", Manbach - 2022", image: "images/lecture3/wine1.png", rating: "3.0/10" },
+      { name: "Touraine Sauvignon Blanc \"Clos de la Grange,\" - 2024", image: "images/lecture3/wine2.png", rating: "3.5/10" },
+      { name: "Chinon \"Les Picasses\", Olga Raffault - 2020", image: "images/lecture3/wine3.png", rating: "4.0/10" },
+      { name: "Bourgogne Blanc \"Le Clos du Chateau\"", image: "images/lecture3/wine4.png", rating: "7.0/10" },
+      { name: "Marcel Lapierre, Raisins Gaulois 2024", image: "images/lecture3/wine5.png", rating: "4.0/10" },
+      { name: "\"Les Nouroys\", Harmand-Geoffroy - 2021", image: "images/lecture3/wine6.png", rating: "5.0/10" },
     ],
   },
   {
     id: 4,
     title: "Southern France",
     subtitle: "Loire / Burgundy styles",
-    notes: `
-      <p>Put your lecture notes here. You can use HTML tags.</p>
-    `,
+    notesPath: "notes/lecture4.html",
     wines: [
       { name: "Ch. Guiraud “Le G de Château Guiraud” - 2022", image: "images/lecture4/wine1.png", rating: "9.0/10" },
       { name: "Chateau Cantemerle Haut-Medoc 2022", image: "images/lecture4/wine2.png", rating: "7.5/10" },
